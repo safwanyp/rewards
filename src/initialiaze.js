@@ -1,5 +1,6 @@
 const execDatabaseQuery = require("./infra/database/execDatabaseQuery");
 
+// function to initialize all configurations before the server starts
 async function initialize() {
     // const execDatabaseQuery = require("./infra/database/execDatabaseQuery");
     // const createTables = require("./infra/database/createTables");
